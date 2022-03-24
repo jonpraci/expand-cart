@@ -1,0 +1,33 @@
+{
+  "name": "expand-card",
+  "version": "1.0.0",
+  "description": "expandcard",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp",
+    "postinstall": "npm link ../somelocallib",
+    "postupdate": "npm link ../somelocallib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonpraci/expand.git"
+  },
+  "keywords": [
+    "expand",
+    "task"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonpraci/expand/issues"
+  },
+  "homepage": "https://github.com/jonpraci/expand#readme",
+  "dependencies": {
+    "gulp-sass": "^5.1.0",
+    "normalize.css": "^8.0.1",
+    "sass": "^1.49.9"
+  },
+  "devDependencies": {
+    "gulp-concat": "^2.6.1"
+  }
+}
